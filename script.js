@@ -61,6 +61,8 @@ document.addEventListener("DOMContentLoaded", () => {
     },
   ];
 
+  cardArray.sort(() => 0.5 - Math.random());
+
   function createBoard() {
     var loader = document.querySelector(".loading");
     loader.remove();
